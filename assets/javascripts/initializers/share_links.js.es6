@@ -9,7 +9,7 @@ export default {
       id: 'weibo',
       iconClass: 'fa-weibo',
       generateUrl: function(link, title) {
-        return ("http://service.weibo.com/share/share.php?url=" + encodeURIComponent(link) + "&title=分享了来自 @林书豪球迷网JLinFans 的话题【" + encodeURIComponent(title))+ "】&searchPic=true&style=number";
+        return ("http://service.weibo.com/share/share.php?url=" + encodeURIComponent(link) + "&title=分享了来自 @林书豪球迷网JF 的话题【" + encodeURIComponent(title))+ "】&searchPic=true&style=number";
       },
       shouldOpenInPopup: true,
       popupHeight: 370
